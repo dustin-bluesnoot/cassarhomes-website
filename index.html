@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cassar Homes Inc.</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f8f9fb;
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+
+    .card {
+      text-align: center;
+      padding: 60px 48px;
+      background: #ffffff;
+      border-radius: 4px;
+      box-shadow: 0 2px 24px rgba(26, 58, 107, 0.10);
+      max-width: 560px;
+      width: 90%;
+    }
+
+    .logo {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      display: block;
+      margin: 0 auto 40px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 2px;
+      background-color: #89b4d9;
+      margin: 0 auto 32px;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #5a6a7e;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    .cta-label {
+      font-size: 0.85rem;
+      color: #5a6a7e;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .email-link {
+      display: inline-block;
+      font-size: 1.15rem;
+      color: #1a3a6b;
+      text-decoration: none;
+      border-bottom: 2px solid #89b4d9;
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .email-link:hover {
+      color: #89b4d9;
+      border-color: #1a3a6b;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img
+      src="images/logo.png"
+      alt="Cassar Homes Inc."
+      class="logo"
+    >
+    <div class="divider"></div>
+    <p class="tagline">Building homes, building trust</p>
+    <p class="cta-label">Get in touch</p>
+    <a href="mailto:paul@cassarhomes.ca" class="email-link">paul@cassarhomes.ca</a>
+  </div>
+</body>
+</html>
